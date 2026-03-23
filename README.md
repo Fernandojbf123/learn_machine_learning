@@ -1,4 +1,5 @@
-# Resumen de Machine Learning
+# Aprende Machine Learning by BelloDev
+![Imagen de logo de este repositorio](logo.png)
 
 Este proyecto contiene un resumen de los principales conceptos y funciones de Machine Learning, organizado en dos grandes áreas: aprendizaje supervisado y no supervisado.
 
