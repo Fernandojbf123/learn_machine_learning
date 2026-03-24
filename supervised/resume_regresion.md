@@ -1,19 +1,18 @@
 # Modelos y métricas
-Existen muchos modelos de regresión (ver tabla 1.)
-
-Cuando se entrena un modelo, siempre se sigue la misma lógica:
+Existen muchos modelos de regresión (ver tabla 1.) Cuando se entrena un modelo, siempre se sigue la misma lógica:
 1. Elegir el modelo
 2. Entrenar el modelo (fit)
 3. Predecir la salida
-4. Calcular la métrica
+4. Determinar si el modelo está sub-ajustado o sobre-ajustado (underfitting & overfitting)
+5. Calcular métricas
 
 Ahora vamos a explorar dos casos: 
-1. Cuando los datos tienen una única partición. Se puede ver en el notebook "single_split_lin_reg.ipynb".
+1. Cuando los datos tienen una única partición: 
+- Ejemplo univariado (El caso más simple). Ver el notebook "single_split_lin_reg_univariado.ipynb"
+- Ejemplo multivariado (Un caso más realista) "single_split_lin_reg_multivariado.ipynb".
+Ambos ejemplos usan el set de datos house_prices.csv.
+
 2. Cuando los datos son particionados multiples veces Kfold. Se puede ver en el notebook "kfold_split_lin_reg.ipynb".
-
-
-
-
 
 
 ### Tabla 1: Modelos de regresión y sus métricas.
@@ -63,4 +62,4 @@ Ahora vamos a explorar dos casos:
 |                           |                          | MAPE    | `mean_absolute_percentage_error(y_true, y_pred)` | Error relativo           | Uso en negocio                          |
 
 
-Cuando se usa
+
